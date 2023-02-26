@@ -23,7 +23,7 @@ export default {
 }
 </script>
 <template>
-    <header class="px-2 sm:px-4 py-2.5 fixed w-full z-20 left-0 bg-transparent" :class="{ 'bg-slate-900/40 backdrop-blur-md transition duration-500' : scrolled > 60, 'bg-transparent' : scrolled <= 60 }">
+    <header class="px-2 sm:px-4 py-2.5 fixed w-full z-20 left-0" :class="{ 'bg-slate-900/40 backdrop-blur-md transition duration-500' : scrolled > 60, 'bg-transparent' : scrolled <= 60 }">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
         <a href="#" class="flex items-center">
             <img src="/logo.png" alt="" class="w-8 h-8 mr-3"/>
