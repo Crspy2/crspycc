@@ -23,10 +23,10 @@ export default {
 }
 </script>
 <template>
-    <header class="px-2 sm:px-4 py-2.5 fixed w-full z-20 left-0" :class="{ 'bg-slate-900/40 backdrop-blur-md transition duration-500' : scrolled > 60, 'bg-transparent' : scrolled <= 60 }">
+    <header class="px-2 sm:px-4 py-4 fixed w-full z-20 left-0" :class="{ 'backdrop-blur-[10px] saturate-[180%] bg-[rgba(0,0,0,0.5)] transition duration-500' : scrolled > 1, 'bg-transparent' : scrolled <= 1 }">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
         <a href="#" class="flex items-center">
-            <img src="/logo.png" alt="" class="w-8 h-8 mr-3"/>
+            <img src="/logo.png" alt="" class="w-10 h-10 mr-3"/>
             <img src="/crspy-logo.png" alt="" class="w-auto h-12"/>
         </a>
         <div class="flex md:order-2">
