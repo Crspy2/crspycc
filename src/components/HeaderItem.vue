@@ -7,7 +7,7 @@
                         <source src="/main-bg.mp4" type="video/mp4"/>
                     </video>
                 </div>
-                <div class="w-full relative max-w-[1500px] my-0 mx-auto py-0 px-[30px] ">
+                <div class="w-full relative max-w-[1250px] my-0 mx-auto py-0 px-[30px] ">
                     <div class="flex">
                         <div class="flex relative grow-0 shrink-0 basis-[550px] flex-col justify-center z-[1]">
                             <div class="flex flex-col">
@@ -29,7 +29,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="relative -ml-12 z-0 flex-auto hidden lg:flex">
+                        <div class="relative -ml-40 z-0 flex-auto hidden lg:flex">
                             <div came="absolute left-0 top-0 w-full h-full">
                                 <iframe title='vouches' class="w-[700px] h-[450px] float-right mr-[140px] shadow-[0_5px_36px_0px_rgba(0,0,0,0.25)] rounded-sm -top-[80.5px] left-[222px] relative" src="https://e.widgetbot.io/channels/1072333645685207160/1072336125705867266" />
                             </div>
